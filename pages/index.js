@@ -1,7 +1,14 @@
 import react from 'react';
 import { useState } from 'react';
 
-
+function home() {
+    return (
+        <div>
+            <h1>Página Inicial</h1>
+            {/* <Contador /> */}
+        </div>
+    );
+}
 
 function Contador() {
     const [contador, setContador] = useState(1);
